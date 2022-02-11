@@ -1,0 +1,68 @@
+@import "../../../css/base.css";
+.left-button {
+    background-color: var(--color-gray-very-light);
+    font-weight: var(--font-bold);
+    border-radius: 9px;
+    width: 4.5rem;
+    height: 10rem;
+    padding: 4px 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* TEST: */
+    align-self: flex-start;
+    order: 1;
+}
+
+.counter-button {
+    border: 0;
+    background-color: transparent;
+}
+
+.counter-button:hover {
+    cursor: pointer;
+}
+
+.left-button span {
+    color: var(--color-blue);
+}
+
+.icon {
+    height: 1.3rem;
+    width: 1.3rem;
+    display: block;
+    background-color: var(--color-blue-light);
+}
+
+.icon:hover {
+    height: 1.3rem;
+    width: 1.3rem;
+    display: block;
+    background-color: var(--color-blue);
+}
+
+.icon-plus {
+    mask: url(./../../../assets/icon-plus.svg) no-repeat center / contain;
+    -webkit-mask: url(./../../../assets/icon-plus.svg) no-repeat center / contain;
+}
+
+.icon-minus {
+    mask: url(./../../../assets/icon-minus.svg) no-repeat center / contain;
+    -webkit-mask: url(./../../../assets/icon-minus.svg) no-repeat center / contain;
+}
+
+@media only screen and (max-width: 39.3em) {
+    .left-button {
+        display: flex;
+        flex-direction: row;
+        height: 4.5rem;
+        width: 12rem;
+        align-items: center;
+        justify-content: space-between;
+        align-self: flex-end;
+        position: absolute;
+        top: auto;
+        bottom: 1.5rem;
+    }
+}

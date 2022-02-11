@@ -1,0 +1,13 @@
+.image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+}
+
+.user-photo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

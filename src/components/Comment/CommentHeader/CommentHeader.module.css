@@ -1,0 +1,41 @@
+@import "../../../css/base.css";
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 29rem;
+}
+
+.user-photo-container {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+}
+
+.user-photo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.user-name {
+    display: inline-block;
+    font-weight: var(--font-bolder);
+    color: var(--color-blue-dark);
+}
+
+.time {
+    font-weight: var(--font-regular);
+    color: var(--color-gray);
+}
+
+.badge {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 1px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--color-blue-dark);
+    font-size: 1.3rem;
+}

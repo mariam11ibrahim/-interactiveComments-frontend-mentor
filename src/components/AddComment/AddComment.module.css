@@ -1,0 +1,79 @@
+@import "../../css/base.css";
+.form {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    font-family: inherit;
+    position: relative;
+    padding-left: 15%;
+}
+
+
+/* iamge component  */
+
+.wrapper>div {
+    position: absolute;
+}
+
+.form button {
+    border: 0;
+    border: 1px solid var(--color-blue-dark);
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: var(--font-bold);
+    float: right;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.reply-tag {
+    color: var(--color-blue);
+    font-weight: var(--font-bold);
+}
+
+.custom-textarea {
+    flex: 1;
+    font-family: inherit;
+    font-weight: var(--font-regular);
+    color: var(--color-gray);
+    font-size: 1.6rem;
+    outline: none;
+    resize: none;
+    border: 0;
+    border: 1px solid var(--color-gray-light);
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    min-width: 90%;
+    min-height: 8rem;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 39.3em) {
+    .form {
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+    .custom-textarea {
+        min-width: 100%
+    }
+    .wrapper>div {
+        bottom: 2rem;
+    }
+}
+
+.custom-textarea:focus {
+    border-color: var(--color-gray) !important;
+}
+
+.active {
+    color: var(--color-blue-dark);
+}
+
+.hide {
+    display: none;
+}

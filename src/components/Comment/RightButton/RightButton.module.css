@@ -1,0 +1,102 @@
+@import "../../../css/base.css";
+.right-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* TEST: */
+    order: 3;
+    align-self: flex-start;
+    position: absolute;
+    right: 1rem;
+    top: 2.2rem;
+}
+
+.right-button,
+.delete-button,
+.edit-button {
+    min-width: 8rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete-button,
+.edit-button {
+    left: -3rem;
+}
+
+.right-button span {
+    font-weight: var(--font-bolder);
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+
+.reply-button span,
+.right-button span {
+    color: var(--color-blue);
+}
+
+.delete-button span {
+    color: var(--color-red);
+}
+
+.reply-button:hover span,
+.edit-button:hover span {
+    color: var(--color-blue-light);
+}
+
+.delete-button:hover span {
+    color: var(--color-red-light);
+}
+
+.edit-button span,
+.delete-button span {
+    margin-left: 3px;
+}
+
+.icon {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.icon-reply {
+    background-color: var(--color-blue);
+    mask: url(../../../assets/icon-reply.svg) no-repeat center / contain;
+    -webkit-mask: url(../../../assets/icon-reply.svg) no-repeat center / contain;
+}
+
+.icon-delete {
+    background-color: var(--color-red);
+    mask: url(../../../assets/icon-delete.svg) no-repeat center / contain;
+    -webkit-mask: url(../../../assets/icon-delete.svg) no-repeat center / contain;
+}
+
+.icon-edit {
+    background-color: var(--color-blue);
+    mask: url(../../../assets/icon-edit.svg) no-repeat center / contain;
+    -webkit-mask: url(../../../assets/icon-edit.svg) no-repeat center / contain;
+}
+
+.reply-button:hover .icon-reply {
+    background-color: var(--color-blue-light);
+}
+
+.delete-button:hover .icon-delete {
+    background-color: var(--color-red-light);
+}
+
+.edit-button:hover .icon-edit {
+    background-color: var(--color-blue-light);
+}
+
+@media only screen and (max-width: 39.3em) {
+    .right-button {
+        align-self: flex-end;
+        height: 4.5rem;
+        top: auto;
+        bottom: 1.5rem!important;
+    }
+}
+
+@media only screen and (max-width: 28.44em) {}

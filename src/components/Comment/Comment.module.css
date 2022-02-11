@@ -1,0 +1,31 @@
+@import "../../css/base.css";
+.comment {
+    display: flex;
+}
+
+.comment-body {
+    padding-left: 2rem;
+    order: 2;
+    width: 100%
+}
+
+
+/* the card of edit form  */
+
+.comment-body>div {
+    margin: 0rem;
+    padding: 1rem 0rem;
+}
+
+@media only screen and (max-width: 39.3em) {
+    .comment-body {
+        padding: 0;
+        align-self: flex-start;
+        margin-bottom: 4rem;
+    }
+}
+
+.comment form {
+    flex-wrap: wrap;
+    padding-left: 0rem !important;
+}
