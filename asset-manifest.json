@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/interactiveComments-frontend-mentor/static/css/main.a98817b2.css",
+    "main.css": "/interactiveComments-frontend-mentor/static/css/main.a2031612.css",
     "main.js": "/interactiveComments-frontend-mentor/static/js/main.46d0c48e.js",
     "index.html": "/interactiveComments-frontend-mentor/index.html",
     "static/media/icon-plus.svg": "/interactiveComments-frontend-mentor/static/media/icon-plus.0037a825a55096577941.svg",
@@ -8,11 +8,11 @@
     "static/media/icon-reply.svg": "/interactiveComments-frontend-mentor/static/media/icon-reply.bfb4589d45cd96abd45e.svg",
     "static/media/icon-minus.svg": "/interactiveComments-frontend-mentor/static/media/icon-minus.4aa6933cb1575b3c54fa.svg",
     "static/media/icon-delete.svg": "/interactiveComments-frontend-mentor/static/media/icon-delete.86cedbf2e37529f9c8f1.svg",
-    "main.a98817b2.css.map": "/interactiveComments-frontend-mentor/static/css/main.a98817b2.css.map",
+    "main.a2031612.css.map": "/interactiveComments-frontend-mentor/static/css/main.a2031612.css.map",
     "main.46d0c48e.js.map": "/interactiveComments-frontend-mentor/static/js/main.46d0c48e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a98817b2.css",
+    "static/css/main.a2031612.css",
     "static/js/main.46d0c48e.js"
   ]
 }
